@@ -1,8 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(Fonts/Cinzel-VariableFont_wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nav ul {
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  /* inline block element is same as inline element just they allow to apply padding on top and bottom as well unlike inline elements */
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+.nav a:hover {
+  background-color: rgba(255, 255, 257, 0.3);
+}
+
+.name {
+  /* font-family: ; */
+  text-align: center;
+  margin: 0px;
+  font-size: 4em;
+  font-family: "Cinzel";
+  color: white;
+  font-weight: bolder;
+}
+.name-large {
+  font-size: 8em;
+}
 .main-header {
-  background-image: url("Images/9092f5jopx761.jpg");
+  background-color: rgb(196, 111, 111);
+  background-image: url("Images/437732.jpg");
   background-size: cover;
-  /* background-position-y: 150px; */
-  background-position: 100px;
+  background-blend-mode: multiply;
+  /* background-repeat: no-repeat; */
+
+  background-position-y: 0px;
+  background-position: 0px;
   background-position-x: 0px;
+
   padding-bottom: 30px;
+
+  /* background-attachment: fixed; */
 }
