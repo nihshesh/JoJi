@@ -69,3 +69,39 @@ body {
 
   /* background-attachment: fixed; */
 }
+
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "cinzel";
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+}
+.about-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.main-footer {
+  background-color: #56ccf2;
+}
+.name-footer {
+  color: #333;
+  text-align: left;
+  font-size: 2em;
+}
+.socials {
+  display: inline;
+  color: white;
+  padding: 0.25em 0;
+}
