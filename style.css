@@ -93,15 +93,31 @@ body {
   border-radius: 50%;
 }
 .main-footer {
-  background-color: #56ccf2;
-}
-.name-footer {
-  color: #333;
-  text-align: left;
-  font-size: 2em;
-}
-.socials {
-  display: inline;
+  background-color: #a77ba3;
   color: white;
   padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li {
+  padding: 0 0.5em;
+}
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+.button-header {
 }
